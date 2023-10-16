@@ -1,0 +1,27 @@
+<Persons>
+  <Person Surname='Van der Merwe' Name='Piet'>
+    <Children>
+      <Person Surname='Van der Merwe' Name='Klein Piet'></Person >
+    </Children>
+  </Person>
+  <Person Surname='Bond' Name='James'>
+    <Children>
+      <Person Surname='Bond' Name='Susan'></Person >
+    </Children>
+    <Friends>
+      <Person Surname='Van der Merwe' Name='Piet'></Person >
+    </Friends>
+  </Person>
+  <Person Surname='Smith' Name='James'>
+    <Children>
+      <Person Surname='Smith' Name='Susan'>
+        <Friends>
+          <Person Surname='Bond' Name='John'></Person >
+        </Friends>
+      </Person>
+    </Children>
+    <Friends>
+      <Person Surname='Bond' Name='James'></Person >
+    </Friends>
+  </Person>
+</Persons>
